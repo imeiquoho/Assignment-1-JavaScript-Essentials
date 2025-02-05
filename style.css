@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #aa0061;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  /* Main Content */
+  main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Profile Section */
+  .profile img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #aa0061;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.1em;
+  }
+  
+  /* Mark to Grade Converter Section */
+  #converter {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  #converter input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  #converter button {
+    padding: 10px 20px;
+    background-color: #aa0061;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #converter p {
+    font-size: 1.1em;
+  }
+  
+  /* Staff Section */
+  #staff-section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .sort-controls {
+    margin-bottom: 20px;
+  }
+  
+  .sort-controls button {
+    padding: 10px 20px;
+    background-color: #aa0061;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  #staffList table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  #staffList th, 
+  #staffList td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  #staffList th {
+    background-color: #f6d365;
+  }
+  
+  /* Colorful staff names */
+  .staff-name {
+    color: #FF5733; /* Bright color for names */
+    font-weight: bold;
+  }
+  
+  /* Weather Section */
+  .weather {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .weather input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .weather button {
+    padding: 10px 20px;
+    background-color: #aa0061;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
