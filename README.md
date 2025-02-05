@@ -23,7 +23,7 @@ Key Features
 
 ### Deployment
 This project is deployed via GitHub Pages and is accessible at:
-[GitHub Pages Link](https://your-username.github.io/assignment1/)
+https://github.com/imeiquoho/Assignment-1-JavaScript-Essentials
 
 ### Author
 **Ime Iquoho Iquoho**  
